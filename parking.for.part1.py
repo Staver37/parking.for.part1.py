@@ -11,4 +11,5 @@ for place_index in range(1, PARKING_PLACES + 1):
     else:
          print("| X |", end="")
 
-print("\n","#"*PARKING_PLACES*5, sep="")
+print("\n","#"*PARKING_PLACES*5, sep="") 
+# HW2 : sep="" pentru a sterge spastiu lasat de "\ln"
